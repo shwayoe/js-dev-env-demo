@@ -4,6 +4,7 @@
   "description": "JS Development Stater Kit for Developer",
   "main": "index.js",
   "scripts": {
+    "prestart": "node buildScripts/startMessage.js",
     "start": "npm run open:src",
     "open:src": "node buildScripts/srcServer.js",
     "localtunnel": "lt --port 3000",
